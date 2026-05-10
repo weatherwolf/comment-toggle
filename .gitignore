@@ -1,0 +1,16 @@
+# Claude Code
+.claude/
+CLAUDE.md
+
+# Editor / OS
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Vim/Neovim
+tags
+doc/tags
+
+# Lua
+*.luac
