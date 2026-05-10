@@ -73,7 +73,7 @@ function M.setup(opts)
   vim.api.nvim_create_user_command("Uncomment", uncomment, { range = true })
 
   if opts.keymap ~= false then
-    local key = opts.keymap or "<leader>?"
+    local key = opts.keymap or "<leader>/"
     vim.keymap.set({ "n", "v" }, key, ":ToggleComment<CR>",
       { silent = true, desc = "Toggle comment" })
   end
