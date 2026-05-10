@@ -11,13 +11,13 @@ Requires Neovim 0.7+.
 **lazy.nvim**
 
 ```lua
-{ "your-username/comment-toggle.nvim", config = true }
+{ "weatherwolf/comment-toggle.nvim", config = true }
 ```
 
 **packer.nvim**
 
 ```lua
-use { "your-username/comment-toggle.nvim", config = function() require("comment_toggle").setup() end }
+use { "weatherwolf/comment-toggle.nvim", config = function() require("comment_toggle").setup() end }
 ```
 
 ## Configuration
